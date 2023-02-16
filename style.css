@@ -1,0 +1,209 @@
+/* --------------- CSS reset ----------------- */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* --------------- my real CSS begins here ----------------- */
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    font-weight: bold;
+    /* line-height: 1.4rem; */
+
+}
+
+.big-fancy-text,
+.medium-fancy-text,
+.small-fancy-text {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.big-fancy-text {
+    font-size: 2rem;
+    line-height: 1.1em;
+}
+
+.medium-fancy-text {
+    font-size: 1.5rem;
+}
+
+.small-fancy-text {
+    font-size: 1.2rem;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    /* z-index: 1; */
+    /* background-color: pink; */
+    /* padding: 50px; */
+}
+
+.hamburger-menu-button {
+    width: 25px;
+    height: 30px;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5em 0 0 1.5em;
+    /* padding: .25em .25em 0 0; */
+    
+}
+
+.hamburger-line {
+    width: 100%;
+    border: 1px solid white;
+    margin: .1em;
+    box-shadow: 0 0 4px darkgray;
+}
+
+.dylan-button-div {
+    width: 100px;
+    height: 100px;
+    
+    /* background-image: url(/images/boring-dylan-button.png); */
+    /* background-size: 110px;
+    background-repeat: no-repeat;
+    background-position: center center; */
+}
+
+.dylan-button-img {
+    width: 100px;
+    padding: .25em 1em 0 0;
+    /* background-color: yellow; */
+}
+
+.flag-critter-img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    /* outline: 2px solid pink; */
+}
+
+.wrapper {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.page-1 {
+    height: 100vh;
+    outline: 2px solid green;
+    padding: 5rem;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+
+.page-1-content {
+    margin: 300px 0 0 0;
+    /* outline: 2px solid purple; */
+}
+
+.page-1-text {
+    margin-top: 20px;
+    line-height: 1.15rem;
+    font-weight: bold;
+}
+
+.page-1-heading {
+    text-align: center;
+}
+
+.background {
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+.mega-links-section {
+    height: 100vh;
+}
+
+
+
+
+
+
+.scroll-indicator-arrow {
+    /* width: 100vw; */
+    /* height: 50px;  */
+    /* background-color: green; */
+    /* bottom: 0; */
+}
+
+.page-2 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mega-links-section {
+    padding: 100px 50px;
+}
+
+/* @media (min-wdth: 1460px) {
+    .background-container {
+
+    }
+} */
